@@ -1,0 +1,14 @@
+﻿**/.terraform/*
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# tfvars often contain secrets; keep only env files if you want
+*.tfvars
+!dev.tfvars
+!prod.tfvars
+
+.terraformrc
+terraform.rc
+.DS_Store
